@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lost in Space - 404</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background: linear-gradient(120deg, #c3a3f1, #ffdde1);
+      animation: gradientBG 10s ease infinite;
+      background-size: 200% 200%;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .glow {
+      box-shadow: 0 0 15px #fff, 0 0 25px #eabfff, 0 0 50px #ffb7ff;
+    }
+
+    .float {
+      animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-20px); }
+      100% { transform: translateY(0px); }
+    }
+  </style>
+</head>
+<body class="flex items-center justify-center min-h-screen text-white text-center font-sans px-4">
+    <!-- Place inside <body>, above the main div -->
+<div class="absolute top-10 left-10 text-white text-4xl animate-pulse">✨</div>
+<div class="absolute bottom-20 right-20 text-white text-4xl animate-bounce">🪐</div>
+
+  <div class="space-y-6">
+    <h1 class="text-7xl font-extrabold glow float">404</h1>
+    <p class="text-2xl glow">Oops! You’re lost in the aesthetic void 🌌</p>
+    <a href="#" class="inline-block mt-4 px-6 py-3 bg-white text-purple-700 rounded-full text-lg font-semibold hover:scale-105 transition glow">
+      Take Me Home
+    </a>
+  </div>
+</body>
+</html>
