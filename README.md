@@ -34,3 +34,6 @@ An aesthetic animated **404 error page** that gently guides lost visitors throug
    ```bash
    git clone https://github.com/your-username/lost-in-aesthetic-space.git
    cd lost-in-aesthetic-space
+
+2. Open index.html in your browser (preferably Chrome):
+    start chrome index.html
