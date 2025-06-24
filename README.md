@@ -37,3 +37,8 @@ An aesthetic animated **404 error page** that gently guides lost visitors throug
 
 2. Open index.html in your browser (preferably Chrome):
     start chrome index.html
+
+🧠 Inspiration
+Designed to turn a boring 404 page into an art piece 🌠
+Because even errors deserve ✨vibes✨.
+
